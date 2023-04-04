@@ -22,7 +22,8 @@ The Galaxy workflow uses FastQC for quality checks and assessments. For paired-e
 
 
 
-**1. Quality check and read processing**
+Quality check and read processing
+=================================
   
 
 Let's start with the first step of Primary analysis which is conducting a Quality check and read processing. Once the paired dataset collection is created, this has to be converted from a list of pairs into a simple list to be able to be provided to the FastQC tool which is for quality check of the sequence data. You are now ready to start using the RNA-Seq workflow instead of running each step seperately. Through the steps, this tutorial will explain the meaning of each step, the inputs and outputs which will be useful if you are running each step seperately or running the workflow.
@@ -53,7 +54,8 @@ HTML file can be viewed after downloading it from the history. Below are all the
 * Various plots showing per sequence quality scores, per base sequence content, per sequence GC content, per base N content, sequence duplication levels and adapter content
 
 
-**2. Trimming raw reads**
+Trimming raw reads
+==================
 
 Reads should be trimmed to get rid of bases that were sequenced with high uncertainty and also remove the reads of overall bad quality. During the library preparation steps, adaptors are attached to the sequence ends that serve a purpose when sequencing. These adaptors also need to be removed before any processing. There has been quite a lot of debates as to whether adaptor and quality trimming are required when carrying quantification of RNA-Seq reads. It has been shown in previous studies that performing trimming in RNA-Seq analysis leads to decrease in number of reads, while increasing the proportion of mapped reads. Researchers also indicate that aggressive trimming can negatively impact any secondary and tertiary analysis conducted. Further, the quality of the dataset also determines whether quality trimming is required. Higher the quality of RNA-Seq dataset, lower the impact of quality trimming. For this tutorial, the "Cutadapt" tool is used to carry out adapter and quality trimming.
 
