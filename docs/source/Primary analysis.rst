@@ -21,10 +21,11 @@ The Galaxy workflow uses FastQC for quality checks and assessments. For paired-e
 * To lock the changes, click on the checkmark icon on the top of the history
 
 
-  **1. Quality check and read processing**
+
+**1. Quality check and read processing**
   
 
-Once the paired dataset collection is created, this has to be converted from a list of pairs into a simple list to be able to be provided to the FastQC tool which is for quality check of the sequence data. You are now ready to start using the RNA-Seq workflow instead of running each step seperately. Through the steps, this tutorial will explain the meaning of each step, the inputs and outputs which will be useful if you are running each step seperately or running the workflow.
+Let's start with the first step of Primary analysis which is conducting a Quality check and read processing. Once the paired dataset collection is created, this has to be converted from a list of pairs into a simple list to be able to be provided to the FastQC tool which is for quality check of the sequence data. You are now ready to start using the RNA-Seq workflow instead of running each step seperately. Through the steps, this tutorial will explain the meaning of each step, the inputs and outputs which will be useful if you are running each step seperately or running the workflow.
 
 For those users that did not create a paired dataset collection, you can still select your list of files (just a simple list of your files in a collection, not paired) from the drop-down menu and the first tool in the workflow will create the paired collection. 
 For users running each step - 
