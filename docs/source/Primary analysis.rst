@@ -20,3 +20,4 @@ The Galaxy workflow uses FastQC for quality checks and assessments. For paired-e
 
 * To lock the changes, click on the checkmark icon on the top of the history
 
+
