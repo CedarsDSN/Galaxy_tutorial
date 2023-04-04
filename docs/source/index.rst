@@ -18,5 +18,9 @@ Contents
 
 .. toctree::
 
-   usage
+   RNA-seq introduction
+   Primary analysis
+   Secondary analysis
+   Tertiary analysis
+   Conclusion
    api
