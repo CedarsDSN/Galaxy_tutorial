@@ -19,3 +19,4 @@ The Galaxy workflow uses FastQC for quality checks and assessments. For paired-e
 * Enter a name for the collection and click "Create List" to build the collection. 
 
 * To lock the changes, click on the checkmark icon on the top of the history
+
