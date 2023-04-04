@@ -28,17 +28,17 @@ Once the paired dataset collection is created, this has to be converted from a l
 For those users that did not create a paired dataset collection, you can still select your list of files (just a simple list of your files in a collection, not paired) from the drop-down menu and the first tool in the workflow will create the paired collection. 
 For users running each step - 
 
-1. The paired dataset collection can be provided to the next tool - FastQC, but only after converting the list of pairs into a simple list
+* The paired dataset collection can be provided to the next tool - FastQC, but only after converting the list of pairs into a simple list
 
-2. The flatten collection tool is pre-installed in Galaxy and can be used to convert the output for FastQC
+* The flatten collection tool is pre-installed in Galaxy and can be used to convert the output for FastQC
 
-3. In the drop-down menu for "Flatten collection" tool, provide the paired dataset collection
+* In the drop-down menu for "Flatten collection" tool, provide the paired dataset collection
 
-4. Run the tool and the output automatically saves to the history and can be easily provided to the FastQC tool
+* Run the tool and the output automatically saves to the history and can be easily provided to the FastQC tool
 
-5. Find FastQC in the toolshed on the left handside and launch the tool
+* Find FastQC in the toolshed on the left handside and launch the tool
 
-6. Provide the output of "Flatten collection" tool to the FastQC tool and run
+* Provide the output of "Flatten collection" tool to the FastQC tool and run
 
 Output of FastQC -
 
