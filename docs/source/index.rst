@@ -1,10 +1,8 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to Cedar-Sinai Medical Center Data Science Navigation team's Galaxy documentation!
+===================================================================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Galaxy** is a Bioinformatics resource which is user-friendly, intuitive and accessible. It is especially useful for those that have little to no programming experience.
+Galaxy is freely available on the internet. Cedars-Sinai has provided a Galaxy instance that is exclusively for Cedars-Sinai employees for running your Bioinformatics analysis.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
