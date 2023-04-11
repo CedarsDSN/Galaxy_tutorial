@@ -34,7 +34,7 @@ DESeq2 generates three outputs:
   g. p-value adjusted for multiple testing with the Benjamini-Hochberg procedure, which controls for false discovery rate
 
 
-. figure:: /docs/deseq2_pca.png
+.. figure:: /docs/deseq2_pca.png
    :scale: 50 %
    :alt: map to buried treasure
 
