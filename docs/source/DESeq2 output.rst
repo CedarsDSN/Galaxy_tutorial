@@ -39,3 +39,9 @@ DESeq2 generates three outputs:
    :alt: map to buried treasure
 
    Fig 1: A PCA plot showing the varition between the samples
+   
+ .. figure:: /docs/deseq2_sample_sample_distance_heatmap.png
+   :scale: 50 %
+   :alt: map to buried treasure
+
+   Fig 1: Figure showing the heatmap of the sample-to-sample distances
