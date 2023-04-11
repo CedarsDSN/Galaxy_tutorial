@@ -32,3 +32,7 @@ DESeq2 generates three outputs:
   f. p-value for the statistical significance of the change
   
   g. p-value adjusted for multiple testing with the Benjamini-Hochberg procedure, which controls for false discovery rate
+
+
+.. image:: docs/deseq2_pca.png
+   :width: 600
