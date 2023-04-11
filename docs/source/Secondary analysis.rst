@@ -7,7 +7,7 @@ For workflow users, three reference genomes are available - Homo sapiens (hg38),
 
 * Expand the "RNA STAR" component of the workflow and click on the edit button next to "Select reference genome" and a dropdown will appear
 
-*Select the genome that you want to work with and click the edit button again and it should save the genome that you want to work with
+* Select the genome that you want to work with and click the edit button again and it should save the genome that you want to work with
 
 For users running each step -
 The Galaxy instance at the time of writing this tutorial has three genomes - Homo sapiens (hg38), Mus musculus (mm10) and Drosophila melanogaster (dm6). If you want to add your own reference genome, please contact the Data Navigation Team (DSN) in the Computational Biomedicine Team at Cedars-Sinai medical center. The steps to follow if working with one of the three genomes are -
