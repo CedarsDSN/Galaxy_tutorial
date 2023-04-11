@@ -22,5 +22,6 @@ Contents
    Primary analysis
    Secondary analysis
    Tertiary analysis
+   DESeq2 output
    Conclusion
    api
