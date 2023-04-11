@@ -84,7 +84,6 @@ For users running each step -
 * Set "gene_id" as the "GFF gene identifier"
 
 * Select "Disabled; reads that align to multiple features or overlapping features are excluded" under "Allow reads to map to multiple features"
-Click "Run" to run the tool
 
 * Click "Run" to run the tool
 
