@@ -35,3 +35,5 @@ The output of MultiQC on RNA STAR results should contain a webpage which can be 
 * A table on the webpage gives the statistics of alignment with the percentage of uniquely mapped reads along with the number 
 
 * A plot gives the amount of reads uniquely mapped, mapped to multiple loci, mapped to too many loci, unmapped because of being too short and unmapped generally
+
+
