@@ -33,3 +33,9 @@ At this stage, the user only has to enter a file for the fourth step - "Attachin
 * Change the type from "Auto-detect" to "tabular"
 
 * Press Start and close the window
+
+For users running the workflow, you can read further down this page if you would like to know how the other tools work and what they do (This will also show you the default parameters)
+
+For users running each step or running the secondary analysis seperately, the steps are delineated below -
+
+
