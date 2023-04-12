@@ -34,7 +34,6 @@ DESeq2 generates three outputs:
   g. p-value adjusted for multiple testing with the Benjamini-Hochberg procedure, which controls for false discovery rate
 
 
-.. figure:: /docs/deseq2_pca.png
-   :scale: 50 %
+.. image:: /docs/deseq2_pca.png
+  :width: 400
 
-   Fig 1: A PCA plot showing the varition between the samples
