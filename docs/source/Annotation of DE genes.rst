@@ -38,4 +38,58 @@ For users running the workflow, you can read further down this page if you would
 
 For users running each step or running the secondary analysis seperately, the steps are delineated below -
 
+The first tool that is used is "Filter data on any column using simple expressions"
 
+* This tool is used to extract genes with. significant change in gene expression (adjusted p-value < 0.05) between two levels of a factor (treated and untreated samples)
+
+* Search for the tool under "Tools" 
+
+* Select the output from DESeq2 from history under "Filter"
+
+* Under "With following condition", input "c7<0.05" (Filter the file on the seventh column with threshold of 0.05 where the column represents adjusted p-value)
+
+* Click on "Execute"
+
+* Rename the file as "Genes with significant adj p-value"
+
+The second tool that that will be used is "Filter"
+
+* This tool is used to select only the genes with a fold change (FC) > 2 or FC < 0.5 (or log2 FC >1)
+
+* Select for the tool under "Tools"
+
+* Select the file "Genes with significant adj p-value" under "Filter"
+
+* Under "With following condition", input "abs(c3)>1" (Filter the file on the absolute value of the third column which is the log2 FC with threshold of 1)
+
+* Click on execute
+
+The next tool that is used is "Annotate DESeq2/DEXSeq output tables"
+
+* Before running this tool, upload your Ensembl gene annotation (GFF/GTF format) for the organism you are working with from the history (If you contacted Cedars-Sinai DSN team for help with this, this annotation file should be pre-uploaded and will appear in the dropdown menu of the tool)
+
+* Select for the tool under "Tools"
+
+* Select the output of "Filter" under "Tabular output of DESeq2/edgeR/limma/DEXSeq"
+
+* Select "DESeq2/edgeR/limma" under "Input file type"
+
+* Select the gene annotation file under "Reference annotation in GFF/GTF format"
+
+* Click on execute
+
+"Concatenate datasets" is the next tool that is used
+
+* Before executing this tool, a header has to be added to the annotated DESeq2 file so that downstream tools can use it
+
+* The steps to make a new file which has the columns of the header are at the top of this page 
+
+* Once the header is created, select "Concatenate datasets" under tools
+
+* Under "Concatenate dataset", select the header dataset
+
+* Under "Dataset", click on "Insert dataset"
+
+* Under "Select", select the output of "Annotate DESeq2/DEXSeq output tables"
+
+* Rename the output to "Genes with significant adj p-value & abs(log2(FC)) > 1"
