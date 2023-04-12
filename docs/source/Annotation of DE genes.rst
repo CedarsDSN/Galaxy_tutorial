@@ -93,3 +93,5 @@ The next tool that is used is "Annotate DESeq2/DEXSeq output tables"
 * Under "Select", select the output of "Annotate DESeq2/DEXSeq output tables"
 
 * Rename the output to "Genes with significant adj p-value & abs(log2(FC)) > 1"
+
+
