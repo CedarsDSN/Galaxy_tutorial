@@ -23,5 +23,6 @@ Contents
    Secondary analysis
    Tertiary analysis
    DESeq2 output
+   Annotation of DE genes
    Conclusion
    api
