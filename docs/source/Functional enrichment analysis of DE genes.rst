@@ -13,6 +13,8 @@ The three main categories of GO are Biological Process (BP), Cellular Component 
 
 Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway database is a collection of pathway maps representing current knowledge of molecular interaction, recation and relation networks. A map can integrate many entities including genes, proteins, RNAs, chemical compounds, glycans, and chemical reactions, as well as disease genes and drug targets. Along with GO categories, including in KEGG pathway information enriches the understanding of what pathways the genes belong to.
 
+GO pathway analysis
+===================
 
 At this stage, we have extracted genes that are significantly differentially expressed and visualized them. We are now ready to carry out Gene Ontology (GO) analysis using goseq.
 
@@ -120,13 +122,21 @@ The last step in GO analysis is using the tool "goseq" to perfrom GO analysis
 With these parameters, "goseq" generates three outputs -
 
 * A table (Ranked category list - Wallenius method) with the following columns for each GO term:
+  
   a. category - GO category
+  
   b. over_rep_pval - p-value for over-representation of the term in differentially expressed genes
+  
   c. under_rep_pval - p-value for under-representation of the term in differentially expressed genes
+  
   d. numDEInCat - number of differentially expressed genes in this category
+  
   e. term - detail of the term
+  
   f. ontology - MF (Molecular Function - molecular activities of gene products), CC (Cellular Component - where gene products are active), BP (Biological Process - pathways and larger processes made up of the activities of multiple gene products)
+  
   g. p.adjust.over_represented - p-value for over-representation of the term in the differentially expressed genes, adjusted for multiple testing with the Benjamini-Hochberg procedure
+  
   h. p.adjust.under_represented - p-value for under-representation of the term in the differentially expressed genes, adjusted for multiple testing with the Benjamini-Hochberg procedure
 
 * A graph with the top 10 over-represented GO terms
