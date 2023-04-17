@@ -87,6 +87,7 @@ Table Compute tool helps compute Z-score and is done in 2 steps
 * Divide the previous values by the standard deviation of values in the row, using the two tables (the normalized counts and table computed in the first step)
 
 * Table Compute one -
+
   a. Under "Input Single or Multiple Tables", select "Single Table" and provide the output of DESeq2 - "Normalized counts"
 
   b. Under "Type of table operation", select "Perform a full table operation"
