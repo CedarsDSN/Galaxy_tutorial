@@ -74,7 +74,7 @@ The next tool is "heatmap2"
 
 * Click on "Execute"
 
-**Visualization of the Z-score**
+Visualization of the Z-score
 ================================
 
 For the steps to generate the heatmap for "Visualization of the Z-score" -
