@@ -25,5 +25,6 @@ Contents
    DESeq2 output
    Annotation of DE genes
    Visualization of DE genes
+   Functional enrichment analysis of DE genes
    Conclusion
    api
