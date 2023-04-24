@@ -3,6 +3,7 @@ nav:
   - Home: index.md
   - Introduction: RNA-seq introduction.md
   - Primary analysis:
+    - Introduction to primary analysis: Primary analysis inroduction.md
     - Quality check: Quality check.md
     - Read processing: Trimming raw reads.md
   - Secondary analysis:
