@@ -20,6 +20,7 @@ Contents
 
    RNA-seq introduction
    Primary analysis
+   Quality check and read processing
    Secondary analysis
    Tertiary analysis
    DESeq2 output
