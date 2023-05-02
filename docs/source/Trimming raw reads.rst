@@ -1,4 +1,5 @@
 Trimming raw reads
+==================
 
 Reads should be trimmed to get rid of bases that were sequenced with high uncertainty and also remove the reads of overall bad quality. During the library preparation steps, adaptors are attached to the sequence ends that serve a purpose when sequencing. These adaptors also need to be removed before any processing. There has been quite a lot of debates as to whether adaptor and quality trimming are required when carrying quantification of RNA-Seq reads. It has been shown in previous studies that performing trimming in RNA-Seq analysis leads to decrease in number of reads, while increasing the proportion of mapped reads. Researchers also indicate that aggressive trimming can negatively impact any secondary and tertiary analysis conducted. Further, the quality of the dataset also determines whether quality trimming is required. Higher the quality of RNA-Seq dataset, lower the impact of quality trimming. For this tutorial, the "Cutadapt" tool is used to carry out adapter and quality trimming.
 
