@@ -1,5 +1,4 @@
 Quality check and read processing
-=================================
   
 
 Let's start with the first step of Primary analysis which is conducting a Quality check and read processing. Once the paired dataset collection is created, this has to be converted from a list of pairs into a simple list to be able to be provided to the FastQC tool which is for quality check of the sequence data. You are now ready to start using the RNA-Seq workflow instead of running each step seperately. Through the steps, this tutorial will explain the meaning of each step, the inputs and outputs which will be useful if you are running each step seperately or running the workflow.
