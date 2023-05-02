@@ -23,6 +23,7 @@ Contents
    Quality check and read processing
    Trimming raw reads
    Secondary analysis
+   Quantification of reads
    Tertiary analysis
    DESeq2 output
    Annotation of DE genes
