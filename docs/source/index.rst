@@ -19,6 +19,7 @@ Contents
 .. toctree::
 
    RNA-seq introduction
+   Quick-start
    Primary analysis
    Quality check and read processing
    Trimming raw reads
