@@ -4,7 +4,7 @@
 
 project = 'Galaxy-tutorial'
 copyright = '2021, Graziella'
-author = 'Graziella'
+author = 'Priyanka'
 
 release = '0.1'
 version = '0.1.0'
