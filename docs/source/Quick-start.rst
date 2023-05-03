@@ -14,3 +14,4 @@ This is the list of steps that one would require to run the RNA-seq workflow wit
 12. If you have more than one factor, repeat the same procedure in step 12 for every factor
 13. Under "Annotate DESeq2/DEXSeq output tables", select your GFF3 file from the dropdown menu
 14. Scroll to the top of the page and click on "Run workflow"
+15. You have run your first workflow successfully on Galaxy
