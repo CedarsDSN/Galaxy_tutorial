@@ -1,3 +1,6 @@
+Quick-start
+===========
+
 This is the list of steps that one would require to run the RNA-seq workflow without getting into too much detail about each step. To understand each step in-depth, please proceed to the next page.
 
 1. Open Galaxy and sign in with your username and password 
