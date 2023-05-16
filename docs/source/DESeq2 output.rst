@@ -38,3 +38,4 @@ DESeq2 generates three outputs:
 
 .. image:: /docs/source/deseq2_pca.png
    :width: 600
+   :alt: DESeq2 output
