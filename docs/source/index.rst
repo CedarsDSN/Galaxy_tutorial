@@ -32,5 +32,6 @@ Contents
    Visualization of DE genes
    Functional enrichment analysis of DE genes
    GO pathway analysis
+   KEGG pathway analysis
    Conclusion
    api
