@@ -30,6 +30,7 @@ Contents
    DESeq2 output
    Annotation of DE genes
    Visualization of DE genes
+   Visualization of z-score
    Functional enrichment analysis of DE genes
    GO pathway analysis
    KEGG pathway analysis
