@@ -82,3 +82,7 @@ The third tool that we will use is called "Pathview"
 * Set "Yes" for "Plot on same layer"
 
 * Click on "Execute"
+
+.. image:: /images/KEGG.png
+   :width: 600
+   :alt: Pathway representation of KEGG analysis
