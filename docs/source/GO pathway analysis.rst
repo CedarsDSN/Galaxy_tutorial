@@ -127,3 +127,7 @@ With these parameters, "goseq" generates three outputs -
 * A graph with the top 10 over-represented GO terms
 
 * A table with the differentially expressed genes associated to the GO terms
+
+.. image:: /images/top_over-represented_go_terms.png
+   :width: 600
+   :alt: Top over represented GO terms
