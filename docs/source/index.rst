@@ -31,5 +31,6 @@ Contents
    Annotation of DE genes
    Visualization of DE genes
    Functional enrichment analysis of DE genes
+   GO pathway analysis
    Conclusion
    api
