@@ -74,3 +74,7 @@ The next tool is "heatmap2"
 
 * Click on "Execute"
 
+.. image:: /images/heatmap2_normalized_counts.png
+   :width: 600
+   :alt: Heatmap of normalized counts
+
