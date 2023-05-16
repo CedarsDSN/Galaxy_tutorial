@@ -36,6 +36,6 @@ DESeq2 generates three outputs:
 
 #![](/docs/_static/deseq2_pca.png)
 
-.. image:: /docs/source/deseq2_pca.png
+.. image:: /images/deseq2_pca.png
    :width: 600
    :alt: DESeq2 output
