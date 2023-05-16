@@ -34,8 +34,10 @@ DESeq2 generates three outputs:
   g. p-value adjusted for multiple testing with the Benjamini-Hochberg procedure, which controls for false discovery rate
 
 
-#![](/docs/_static/deseq2_pca.png)
-
 .. image:: /images/deseq2_pca.png
    :width: 600
-   :alt: DESeq2 output
+   :alt: DESeq2 PCA output
+   
+.. image:: /images/deseq2_sample_sample_distance_heatmap.png
+   :width: 600
+   :alt: DESeq2 sample to sample distance heatmap
