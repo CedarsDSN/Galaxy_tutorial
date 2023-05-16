@@ -57,3 +57,7 @@ Table Compute tool helps compute Z-score and is done in 2 steps
   o. Select "Gradient with 3 colors" under "Type of colormap to use"
 
   p. Click on "Execute"
+  
+  .. image:: /images/z-score-heatmap.png
+   :width: 600
+   :alt: Heatmap of z-score
