@@ -22,15 +22,7 @@ Contents
    RNA-seq introduction
    Quick-start
    Primary analysis/index.rst
-   Secondary analysis
-      Quantification of reads
-   Tertiary analysis
-      Identification of differentially expressed features
-      DESeq2 output
-      Annotation of DE genes
-      Visualization of DE genes
-      Visualization of Z-score
-   Functional enrichment analysis of DE genes
-      GO pathway analysis
-      KEGG pathway analysis
+   Secondary analysis/index.rst
+   Tertiary analysis/index.rst
+   Functional enrichment analysis of DE genes/index.rst
    Conclusion
