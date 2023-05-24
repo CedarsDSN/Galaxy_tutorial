@@ -17,7 +17,7 @@ Contents
 --------
 
 .. toctree::
-    :maxdepth: 3
+    :depth: 2
 
    RNA-seq introduction
    Quick-start
@@ -28,7 +28,7 @@ Contents
       Quantification of reads
    Tertiary analysis
       Identification of differentially expressed features
-         DESeq2 output
+      DESeq2 output
       Annotation of DE genes
       Visualization of DE genes
       Visualization of Z-score
