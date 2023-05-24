@@ -22,6 +22,9 @@ The Galaxy workflow uses FastQC for quality checks and assessments. For paired-e
 * To lock the changes, click on the checkmark icon on the top of the history
 
 Below are the links to perform quality checks, and process and trim raw reads -
+
+
+
 .. toctree::
 
    Quality check and read processing
