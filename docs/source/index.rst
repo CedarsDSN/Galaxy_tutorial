@@ -17,21 +17,22 @@ Contents
 --------
 
 .. toctree::
+    :maxdepth: 3
 
    RNA-seq introduction
    Quick-start
    Primary analysis
-   Quality check and read processing
-   Trimming raw reads
+      Quality check and read processing
+      Trimming raw reads
    Secondary analysis
-   Quantification of reads
+      Quantification of reads
    Tertiary analysis
-   Identification of differentially expressed features
-   DESeq2 output
-   Annotation of DE genes
-   Visualization of DE genes
-   Visualization of Z-score
+      Identification of differentially expressed features
+         DESeq2 output
+      Annotation of DE genes
+      Visualization of DE genes
+      Visualization of Z-score
    Functional enrichment analysis of DE genes
-   GO pathway analysis
-   KEGG pathway analysis
+      GO pathway analysis
+      KEGG pathway analysis
    Conclusion
