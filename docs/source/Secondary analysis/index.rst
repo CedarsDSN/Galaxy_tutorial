@@ -40,3 +40,8 @@ The output of MultiQC on RNA STAR results should contain a webpage which can be 
 * A plot gives the amount of reads uniquely mapped, mapped to multiple loci, mapped to too many loci, unmapped because of being too short and unmapped generally
 
 
+.. toctree::
+
+   Quantification of reads
+
+
