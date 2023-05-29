@@ -6,6 +6,7 @@ At this stage, the reads have been filtered by quality and adapters have been tr
 
 .. toctree::
 
+   Alignment
    Quantification of reads
 
 
