@@ -15,13 +15,13 @@ With next-generation sequencing, the number of genes that can be profiled for ex
       * Quantification of reads
   - Tertiary analysis
       * Analysis of differential gene expression
-        * Identification of differentially expressed features
-        * Annotation of DESeq2 results
-        * Extraction and annotation of differentially expressed genes
-        * Visualization of the expression of differentially expressed genes
+        + Identification of differentially expressed features
+        + Annotation of DESeq2 results
+        + Extraction and annotation of differentially expressed genes
+        + Visualization of the expression of differentially expressed genes
       * Functional enrichment analysis of DE genes
-        * Gene Ontology analysis
-        * KEGG pathway analysis
+        + Gene Ontology analysis
+        + KEGG pathway analysis
 This tutorial will go into the details of each step and the inputs and outputs for each step for the Galaxy workflow "RNA-Seq analysis".
 
 **Important notes**:  
