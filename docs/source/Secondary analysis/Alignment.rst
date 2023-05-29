@@ -1,4 +1,5 @@
-Alignment / Mapping
+Alignment
+=========
 
 For workflow users, three reference genomes are available - Homo sapiens (hg38), Mus musculus (mm10) and Drosophila melanogaster (dm6). If you want to add your own reference genome, please contact the Data Navigation Team (DSN) in the Computational Biomedicine Team at Cedars-Sinai medical center. If working with one of the provided genomes, dm6 is the default genome and can be changed within the workflow. If you want to change the genome you are working with -
 
