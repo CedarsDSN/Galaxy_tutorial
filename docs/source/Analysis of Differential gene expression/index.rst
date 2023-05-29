@@ -13,6 +13,6 @@ DESeq2 also carries out the Differential Gene Expression (DGE) analysis and esti
 .. toctree::
 
    Identification of differentially expressed genes
-   Annotation of DESEeq2 results
+   Annotation of DESeq2 results
    Expression and  annotation of differentially expressed genes
    Visualization of the expression of differentially expressed genes
