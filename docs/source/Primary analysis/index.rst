@@ -14,7 +14,7 @@ The Galaxy workflow uses FastQC for quality checks and assessments. For paired-e
 
 .. image:: /images/Naming_datasets.png
    :width: 200
-   :height: 400
+   :height: 275
    :alt: Choosing datasets
 
 * Click "For all selected" and choose "Build List of Dataset Pairs"
