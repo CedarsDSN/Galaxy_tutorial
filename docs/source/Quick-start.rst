@@ -8,14 +8,13 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
 
 1. Open Galaxy and sign in with your username and password 
 2. Upload your fastq files that you would like to run the RNA-seq analysis with. If you would like to use an example dataset, please use these detailed `instructions <https://artbio.github.io/springday/uploads/>`_
-3. Upload the header, the gene annotation file and file with pathways that is provided with the workshop tutorial. If you are not following the tutorial, please navigate to the Galaxy tutorial to download the appropriate files
-4. Navigate to the "Workflows" tab on the top of the Galaxy homepage
-5. Next to the workflow named "RNA-seq analysis", click on the start button 
-6. This will navigate you to the page to enter all the values to run this workflow. Here, you can either send all the output to the current history or make a new history
-7. Under "Create a collection of input files" and "Flatten collection", select your collection of fastq files from the dropdown menu
-8. Under "featureCounts", select your gene annotation GFF3 from the dropdown menu
-9. Scroll to the top of the page and click on "Run workflow"
-10. You have successfully conducted primary and secondary analysis using "Primary analysis" workflow in Galaxy
+3. Navigate to the "Workflows" tab on the top of the Galaxy homepage
+4. Next to the workflow named "RNA-seq analysis", click on the start button 
+5. This will navigate you to the page to enter all the values to run this workflow. Here, you can either send all the output to the current history or make a new history
+6. Under "Create a collection of input files" and "Flatten collection", select your collection of fastq files from the dropdown menu
+7. Under "featureCounts", select your gene annotation GFF3 from the dropdown menu
+8. Scroll to the top of the page and click on "Run workflow"
+9. You have successfully conducted primary and secondary analysis using "Primary analysis" workflow in Galaxy
 
 **Tertiary analysis**
 
