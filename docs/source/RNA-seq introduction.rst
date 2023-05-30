@@ -5,7 +5,7 @@ Gene expression is a process where genes are transcribed to an RNA molecule and 
 
 ===========
 
-With next-generation sequencing, the number of genes that can be profiled for expression levels has increased to tens of thousands. There are several steps in data analysis that have been refined over the years. This tutorial goes through the steps of RNA-Seq analysis mentioned below and is based on a Galaxy RNA-Seq tutorial -  
+With next-generation sequencing, the number of genes that can be profiled for expression levels has increased to tens of thousands. There are several steps in data analysis that have been refined over the years. This tutorial goes through the steps of RNA-Seq analysis mentioned below and is based on a Galaxy RNA-Seq `tutorial <https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html#analysis-of-the-differential-gene-expression>`_ -  
   - Primary analysis 
       * Processing raw data
       * Quality check and read processing
