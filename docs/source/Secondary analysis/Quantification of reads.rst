@@ -54,6 +54,7 @@ MultiQC can be run on featureCounts output and is optional. In order to run Mult
 * Select "featureCounts on collection N: Summary" (the output of featureCounts) under "Output of FeatureCounts"
 
 You can look at the details of the "featureCounts" output and it should look like below -
+
 .. image:: /images/featurecounts.png
    :width: 250
    :height: 500
