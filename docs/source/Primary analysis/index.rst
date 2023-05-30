@@ -13,7 +13,8 @@ The Galaxy workflow uses FastQC for quality checks and assessments. For paired-e
 * These files should appear in your history on the right hand side. Check all those that you would like to include in your analysis like below
 
 .. image:: /images/Naming_datasets.png
-   :width: 600
+   :width: 200
+   :height: 400
    :alt: Choosing datasets
 
 * Click "For all selected" and choose "Build List of Dataset Pairs"
