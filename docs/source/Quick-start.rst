@@ -1,7 +1,7 @@
-Quick-start
-===========
+**Quick-start**
+===============
 
-Primary analysis
+**Primary analysis**
 
 
 This is the list of steps that one would require to run the RNA-seq "Primary analysis" workflow without getting into too much detail about each step. To understand each step in-depth, please proceed to the next page.
@@ -17,7 +17,7 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
 9. Scroll to the top of the page and click on "Run workflow"
 10. You have successfully conducted primary and secondary analysis using "Primary analysis" workflow in Galaxy
 
-Tertiary analysis
+**Tertiary analysis**
 
 
 1. Upload your counts file if you have them. If using the example datasets, you can import the counts from before using these `instructions <https://artbio.github.io/springday/count/>`_
