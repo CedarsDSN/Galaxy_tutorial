@@ -6,6 +6,11 @@ Reads should be trimmed to get rid of bases that were sequenced with high uncert
 
 For workflow users - The Galaxy workflow doesn't allow you to select "Single-end" or "Paired-end" reads. The way that is it set up within a workflow doesn't give you the option to select the kind of analysis you need. The default is "Paired-end collection" as used in the original RNA-Seq Galaxy tutorial. All other settings are default and no user input has to be entered at this step. For further explanation of the default parameters, they are explained below for users that are running each step seperately. The Cutadapt step in the workflow can be run in default and nothing has to be entered.
 
+.. image:: /images/cutadapt.png
+   :width: 600
+   :alt: cutadapt input
+   
+   
 For users running each step - 
 Cutadapt tool is used but there are other tools too such as Trimmomatic, BBDuk, TrimGalore. Here are the steps to run Cutadapt as part of running the pipeline not as part of the workflow -
 
