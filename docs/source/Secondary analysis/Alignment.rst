@@ -28,6 +28,12 @@ MultiQC can be run on RNA STAR output and is optional. In order to run MultiQC -
 
 * Select your STAR log output - "RNA STAR on collection N: log" 
 
+After running STAR, a STAR log report like this shows that alignment has completed -
+
+.. image:: /images/STAR_report.png
+   :width: 600
+   :alt: STAR report
+
 The output of MultiQC on RNA STAR results should contain a webpage which can be accessed from the history and downloaded to be viewed -
 
 * A table on the webpage gives the statistics of alignment with the percentage of uniquely mapped reads along with the number 
