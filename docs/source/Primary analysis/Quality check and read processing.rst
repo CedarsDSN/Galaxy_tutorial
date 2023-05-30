@@ -27,4 +27,8 @@ HTML file can be viewed after downloading it from the history. Below are all the
 
 * Basic statistics - This is exactly what it says, all basic statistics about your fastq samples which includes but not limited to total number of sequences, sequence length and GC%
 
-* Various plots showing per sequence quality scores, per base sequence content, per sequence GC content, per base N content, sequence duplication levels and adapter content
+* Various plots showing per sequence quality scores, per base sequence content, per sequence GC content, per base N content, sequence duplication levels and adapter content. One of the plot below shows the per base sequence quality
+
+.. image:: /images/fastqc_sequence_quality.png
+   :width: 600
+   :alt: fastqc plot
