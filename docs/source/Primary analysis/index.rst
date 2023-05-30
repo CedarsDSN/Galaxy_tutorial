@@ -8,17 +8,21 @@ The Galaxy workflow uses FastQC for quality checks and assessments. For paired-e
 
 * Upload all your fastq files using the "Upload data" on the left upperhand corner on the Galaxy homepage
 
-* Click on "Operations on multiple datasets" at the top of the history panel which is on the right hand side. 
+* Click on "Operations on multiple datasets" at the top of the history panel which is on the right hand side
 
-* These files should appear in your history on the right hand side. Check all those that you would like to include in your analysis. 
+* These files should appear in your history on the right hand side. Check all those that you would like to include in your analysis like below
 
-* Click "For all selected" and choose "Build List of Dataset Pairs". 
+.. image:: /images/Naming_datasets.png
+   :width: 600
+   :alt: Choosing datasets
 
-* In the new panel that appears, rename the text of unpaired forward to a common selector for forward reads and do the same for reverse reads. 
+* Click "For all selected" and choose "Build List of Dataset Pairs"
 
-* Click "Pair" these datasets for each valid forward and reverse pair. 
+* In the new panel that appears, rename the text of unpaired forward to a common selector for forward reads and do the same for reverse reads
 
-* Enter a name for the collection and click "Create List" to build the collection. 
+* Click "Pair" these datasets for each valid forward and reverse pair
+
+* Enter a name for the collection and click "Create List" to build the collection
 
 * To lock the changes, click on the checkmark icon on the top of the history
 
