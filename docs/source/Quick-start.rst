@@ -2,6 +2,8 @@ Quick-start
 ===========
 
 Primary analysis
+
+
 This is the list of steps that one would require to run the RNA-seq "Primary analysis" workflow without getting into too much detail about each step. To understand each step in-depth, please proceed to the next page.
 
 1. Open Galaxy and sign in with your username and password 
@@ -16,6 +18,8 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
 10. You have successfully conducted primary and secondary analysis using "Primary analysis" workflow in Galaxy
 
 Tertiary analysis
+
+
 1. Upload your counts file if you have them. If using the example datasets, you can import the counts from before using these `instructions <https://artbio.github.io/springday/count/>`_
 2. You need a header for this workflow. Get a header file from `here <https://galaxy-tutorial.readthedocs.io/en/latest/Analysis%20of%20Differential%20gene%20expression/Expression%20and%20annotation%20of%20differentially%20expressed%20genes/>`_ Under "header", enter the header file provided in the dropdown menu
 3. You need a list of KEGG pathways for this workflow. Get a KEGG pathway file from `here <https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html#functional-enrichment-analysis-of-the-de-genes>`_
