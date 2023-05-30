@@ -1,5 +1,5 @@
-Functional enrichment analysis of DE genes
-==========================================
+**Functional enrichment analysis of DE genes**
+===============================================
 
 Now, one would like to carry out pathway analysis which gives an idea of what specific processes/categories these transcripts are enriched in. Gene ontology (GO) is an oft-used method to assign the differentially expressed genes from a RNA-Seq workflow to a process/category and give context to a set of transcripts. 
 
