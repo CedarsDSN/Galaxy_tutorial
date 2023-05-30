@@ -32,7 +32,7 @@ After running STAR, a STAR log report like this shows that alignment has complet
 
 .. image:: /images/STAR_report.png
    :width: 250
-   :height: 300
+   :height: 400
    :alt: STAR report
 
 The output of MultiQC on RNA STAR results should contain a webpage which can be accessed from the history and downloaded to be viewed -
