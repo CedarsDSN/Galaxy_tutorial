@@ -11,7 +11,7 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
 3. Navigate to the "Workflows" tab on the top of the Galaxy homepage
 4. Next to the workflow named "RNA-seq Primary analysis", click on the start button 
 5. This will navigate you to the page to enter all the values to run this workflow. Here, you can either send all the output to the current history or make a new history
-6. Under "Create a collection of input files" and "Flatten collection", select your collection of fastq files from the dropdown menu
+6. Under "Create a collection of input files" and "Flatten collection", select your collection of fastq files from the dropdown menu. To create a collection of your fastq files, refer to the step on `this <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/>`_ page
 7. Under "featureCounts", select your gene annotation GFF3 from the dropdown menu
 8. Scroll to the top of the page and click on "Run workflow"
 9. You have successfully conducted primary and secondary analysis using "Primary analysis" workflow in Galaxy
