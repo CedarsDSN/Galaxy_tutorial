@@ -33,7 +33,7 @@ With next-generation sequencing, the number of genes that can be profiled for ex
 
 This tutorial will go into the details of each step and the inputs and outputs for each step for the Galaxy workflow "RNA-Seq Primary analysis" and "RNA-seq Tertiary analysis".
 
-**Important notes**:  
+.. note::
 
 1. For users who need to run this tutorial with their data and need to run differential expression analysis, only run this "RNA-seq Tertiary" workflow if you have two factors that you know can contribute to differences in gene expression (for example treatment  and sequencing type)
 
