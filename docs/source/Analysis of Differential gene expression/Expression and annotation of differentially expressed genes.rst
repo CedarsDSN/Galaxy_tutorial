@@ -23,6 +23,10 @@ At this stage, the user only has to enter a file for the fourth step - "Attachin
 
 * Paste the file contents attached here into the text field 
 
+.. note::
+
+  This is the **Header** file for those that are running the Quick start
+
 .. code-block:: RST
 
   GeneID	Base mean	log2(FC)	StdErr	Wald-Stats	P-value	P-adj	Chromosome	Start	End	Strand	Feature	Gene name
