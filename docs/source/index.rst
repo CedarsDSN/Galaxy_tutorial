@@ -4,10 +4,7 @@ Welcome to Cedar-Sinai Medical Center Data Science Navigation team's Galaxy docu
 **Galaxy** is a Bioinformatics resource which is user-friendly, intuitive and accessible. It is especially useful for those that have little to no programming experience.
 Galaxy is freely available on the internet. Cedars-Sinai has provided a Galaxy instance that is exclusively for Cedars-Sinai employees to run Bioinformatics analysis independently. It allows for reproducible results and tools, and also allows for collaboration seamlessly. Further, one can create their own workflows by integrating the tools for a certain analysis that will be used frequently.
 
-In this tutorial, the user will be guided through using a workflow in the Cedars-Sinai Galaxy instance. This workflow is for RNA-seq analysis, and covers Primary, Secondary and Tertiary analysis.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+In this tutorial, the user will be guided through using a workflow in the Cedars-Sinai Galaxy instance. This workflow is for RNA-seq analysis, and covers Primary, Secondary and Tertiary analysis. In Galaxy, there are two workflows, "RNA-seq Primary analysis" which covers Primary and secondary analysis and "RNA-seq Tertiary analysis" which covers tertiary analysis.
 
 .. note::
 
