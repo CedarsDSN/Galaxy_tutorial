@@ -2,7 +2,7 @@ Extraction and annotation of differentially expressed genes
 ===========================================================
 
 
-You have now conducted differential expression analysis and can now explore your data further. In the summary table outputted by DESeq2, suppose you would like to extract the most differentially expressed genes with a fold change greater than a certain value and the adjusted p-value above a certain threshold. This would be able to extract the most significantly differentially expressed genes. 
+You have now conducted differential expression analysis and can now explore your data further. In the summary table outputted by DESeq2, suppose you would like to extract the most differentially expressed genes with a fold change greater than a certain value and the adjusted p-value above a certain threshold. This would be able to extract the most significantly differentially expressed genes. On this page, we are basically creating a file that can be used downstream.
 For users that are running the workflow, these are the tools that would output a table with significantly differentially expressed genes -
 
 * Filter data on any column using simple expressions
@@ -70,9 +70,9 @@ The second tool that that will be used is "Filter"
 
 The next tool that is used is "Annotate DESeq2/DEXSeq output tables"
 
-* Before running this tool, upload your Ensembl gene annotation (GFF/GTF format) for the organism you are working with from the history (If you contacted Cedars-Sinai DSN team for help with this, this annotation file should be pre-uploaded and will appear in the dropdown menu of the tool)
+* Before running this tool, upload your Ensembl gene annotation (GFF/GTF format) for the organism you are working with into the current history
 
-* Select for the tool under "Tools"
+* Select for "Annotate DESeq2/DEXSeq output tables" tool under "Tools"
 
 * Select the output of "Filter" under "Tabular output of DESeq2/edgeR/limma/DEXSeq"
 
