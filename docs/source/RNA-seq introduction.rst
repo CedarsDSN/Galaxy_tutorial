@@ -29,6 +29,8 @@ With next-generation sequencing, the number of genes that can be profiled for ex
         
         + Gene Ontology analysis
         
+        + goseq output
+        
         + KEGG pathway analysis
 
 This tutorial will go into the details of each step and the inputs and outputs for each step for the Galaxy workflow "RNA-Seq Primary analysis" and "RNA-seq Tertiary analysis".
