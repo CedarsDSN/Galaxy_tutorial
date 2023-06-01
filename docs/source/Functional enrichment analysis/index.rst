@@ -16,4 +16,5 @@ Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway database is a collection 
 .. toctree::
 
    GO pathway analysis
+   goseq output
    KEGG pathway analysis
