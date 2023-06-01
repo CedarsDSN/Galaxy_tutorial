@@ -61,8 +61,8 @@ For the next step, we need a file with KEGG pathways that we are interested in. 
 
 .. code-block:: RST
 
-00010
-03040
+  00010
+  03040
 
 
 The third tool that we will use is called "Pathview"
