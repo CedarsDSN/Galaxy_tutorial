@@ -2,11 +2,19 @@ Quality check and read processing
 =================================
   
 
-Let's start with the first step of Primary analysis which is conducting a Quality check and read processing. Once the paired dataset collection is created, this has to be converted from a list of pairs into a simple list to be able to be provided to the FastQC tool which is for quality check of the sequence data. You are now ready to start using the RNA-Seq workflow instead of running each step seperately. Through the steps, this tutorial will explain the meaning of each step, the inputs and outputs which will be useful if you are running each step seperately or running the workflow.
+Let's start with the first step of Primary analysis which is conducting a Quality check and read processing. Through the steps, this tutorial will explain the meaning of each step, the inputs and outputs which will be useful if you are running each step seperately or running the workflow. 
+
+For users of the workflow, let's start with the "RNA-seq Primary analysis" workflow. 
+
+* From the homepage, navigate to "Workflow" and scroll down to "RNA-seq Primary analysis"
+
+* Provide the collection of fastq files that you created in the previous step from the dropdown menu under "Flatten collection" and "Create a collection of input files". This step is just providing input to the tools within the workflow
+
+* The tool that will run the first step i.e. Quality check is FastQC and you don't have to provide any values under FastQC. We will be using the default values
 
 For users running each step - 
 
-* The paired dataset collection can be provided to the next tool - FastQC, but only after converting the list of pairs into a simple list
+* The paired dataset collection created in the previous step can be provided to the tool - FastQC, but only after converting the list of pairs into a simple list
 
 * The flatten collection tool is pre-installed in Galaxy and can be used to convert the output for FastQC
 
@@ -31,3 +39,5 @@ HTML file can be viewed after downloading it from the history. Below are all the
 .. image:: /images/fastqc_sequence_quality.png
    :width: 600
    :alt: fastqc plot
+   
+   Figure showing the per base sequence quality of a sample in FastQC HTML report
