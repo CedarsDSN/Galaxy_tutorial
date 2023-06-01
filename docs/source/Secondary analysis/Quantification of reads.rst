@@ -64,4 +64,4 @@ MultiQC can be run on featureCounts output and is optional. In order to run Mult
    
    The successful run of featureCounts can be assessed within Galaxy by looking for the information button of your job
 
-The output of MultiQC on featureCounts results should contain a webpage which can be accessed from the history and downloaded to be viewed. At this stage, you are done with the primary analysis workflow and are ready with the expression table with which you can work with the secondary analysis workflow.
+The output of MultiQC on featureCounts results should contain a webpage which can be accessed from the history and downloaded to be viewed. At this stage, you are done with the primary and secondary analysis workflow and are ready with the expression table with which you can work with the tertiary analysis workflow.
