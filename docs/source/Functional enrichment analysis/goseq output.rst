@@ -1,3 +1,6 @@
+goseq output
+============
+
 With these parameters, "goseq" generates three outputs -
 
 * A table (Ranked category list - Wallenius method) with the following columns for each GO term:
