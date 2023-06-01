@@ -4,12 +4,20 @@ Trimming raw reads
 Reads should be trimmed to get rid of bases that were sequenced with high uncertainty and also remove the reads of overall bad quality. During the library preparation steps, adaptors are attached to the sequence ends that serve a purpose when sequencing. These adaptors also need to be removed before any processing. There has been quite a lot of debates as to whether adaptor and quality trimming are required when carrying quantification of RNA-Seq reads. It has been shown in previous studies that performing trimming in RNA-Seq analysis leads to decrease in number of reads, while increasing the proportion of mapped reads. Researchers also indicate that aggressive trimming can negatively impact any secondary and tertiary analysis conducted. Further, the quality of the dataset also determines whether quality trimming is required. Higher the quality of RNA-Seq dataset, lower the impact of quality trimming. For this tutorial, the "Cutadapt" tool is used to carry out adapter and quality trimming.
 
 
-For workflow users - The Galaxy workflow doesn't allow you to select "Single-end" or "Paired-end" reads. The way that is it set up within a workflow doesn't give you the option to select the kind of analysis you need. The default is "Paired-end collection" as used in the original RNA-Seq Galaxy tutorial. All other settings are default and no user input has to be entered at this step. For further explanation of the default parameters, they are explained below for users that are running each step seperately. The Cutadapt step in the workflow can be run in default and nothing has to be entered.
+For workflow users - 
 
-.. image:: /images/cutadapt.png
+* The Galaxy workflow doesn't allow you to select "Single-end" or "Paired-end" reads. The way that is it set up within a workflow doesn't give you the option to select the kind of analysis you need. The default is "Paired-end collection" as used in the original RNA-Seq Galaxy tutorial 
+
+* All other settings are default and no user input has to be entered at this step. For further explanation of the default parameters, they are explained below for users that are running each step seperately
+
+* The next tool i.e. MultiQC has default parameters and the user doesn't need to enter anything
+
+.. figure:: /images/cutadapt.png
    :width: 800
    :height: 400
-   :alt: cutadapt input
+   :alt: Cutadapt input
+   
+   Cutadapt parameters within the "RNA-seq Primary Analysis" workflow
    
    
 For users running each step - 
