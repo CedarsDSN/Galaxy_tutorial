@@ -36,8 +36,7 @@ HTML file can be viewed after downloading it from the history. Below are all the
 
 * Various plots showing per sequence quality scores, per base sequence content, per sequence GC content, per base N content, sequence duplication levels and adapter content. One of the plot below shows the per base sequence quality
 
-.. image:: /images/fastqc_sequence_quality.png
-   :width: 600
+.. figure:: /images/fastqc_sequence_quality.png
    :alt: fastqc plot
    
-   Figure showing the per base sequence quality of a sample in FastQC HTML report
+   Figure showing the per base sequence quality of a sample in the FastQC HTML report
