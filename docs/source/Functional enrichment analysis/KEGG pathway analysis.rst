@@ -53,6 +53,18 @@ We have KEGG analysis done and we have diffferentially expressed gene's informat
 
 * Create a new tabular file from the pathway IDs that you are interested in plotting and rename it as "KEGG pathways to plot"
 
+For the next step, we need a file with KEGG pathways that we are interested in. You could have your own list of pathways. Here is a file that you can directly copy and paste into Galaxy and rename "KEGG pathways"
+
+.. note::
+
+  This is the **KEGG pathways** file for those that are running the Quick start
+
+.. code-block:: RST
+
+00010
+03040
+
+
 The third tool that we will use is called "Pathview"
 
 * Search for the tool under "Tools"
