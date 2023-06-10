@@ -20,6 +20,6 @@ Contents
    Quick-start
    Primary analysis/index.rst
    Secondary analysis/index.rst
-   Tertiary analysis/Analysis of Differential gene expression/index.rst
+   Tertiary analysis/Analysis of differential gene expression/index.rst
    Tertiary analysis/Functional enrichment analysis/index.rst
    Conclusion
