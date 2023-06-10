@@ -1,4 +1,4 @@
-Extraction and annotation of differentially expressed genes
+Expression and annotation of differentially expressed genes
 ===========================================================
 
 
