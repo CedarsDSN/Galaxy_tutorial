@@ -12,7 +12,7 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
 4. Navigate to the "Workflows" tab on the top of the Galaxy homepage
 5. Next to the workflow named "RNA-seq Primary analysis", click on the start button 
 6. This will navigate you to the page to enter all the values to run this workflow. Here, you can either send all the output to the current history or make a new history
-7. Under "Create a collection of input files", select your collection of fastq files from the dropdown menu. To create a collection of your fastq files, refer to the step on `this <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/>`_ page
+7. Under "Create a collection of input files", select your collection of fastq files from the dropdown menu. To create a collection of your fastq files, refer to the steps on `this <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/>`_ page
 8. Under "RNA STAR", select your genome of interest by clicking on the icon next to "Select reference genome", and select the genome of interest. If your genome isn't available, please contact the DSN team with your request. If using the example dataset, use "dm6 sequence index"
 9. Under "featureCounts", select your gene annotation GFF3 from the dropdown menu that appears (This would be the GTF/GFF3 file from your history)
 10. Scroll to the top of the page and click on "Run workflow"
