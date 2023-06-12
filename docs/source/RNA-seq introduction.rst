@@ -43,4 +43,4 @@ This tutorial will go into the details of each step and the inputs and outputs f
 
   3. For all the workflows, until all the inputs have been entered and each step is discussed, do not click on the "Run workflow" button
 
-  4. One more note for those conducting the Tertiary analysis - For the read names that you upload and use, name the sample as such "sample_name_factor1factorlevel_factor2factorlevel" and so on so that it can be used when submitting these samples to DESeq2 for differential expression analysis
+  4. One more note for those conducting the Tertiary analysis - For the read names that you upload and use, name the sample as such "sample_name_factor1factorlevel_factor2factorlevel" (eg. GSM0000_treat_paired) and so on so that it can be used when submitting these samples to DESeq2 for differential expression analysis
