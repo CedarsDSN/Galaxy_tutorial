@@ -11,5 +11,5 @@ To make sure that those genes that are more deeply sequenced or longer aren't ov
 
 .. toctree::
 
-   Tertiary analysis/Analysis of differential gene expression/index.rst
-   Tertiary analysis/Functional enrichment analysis of differentially expressed genes/index.rst
+   Analysis of differential gene expression/index.rst
+   Functional enrichment analysis of differentially expressed genes/index.rst
