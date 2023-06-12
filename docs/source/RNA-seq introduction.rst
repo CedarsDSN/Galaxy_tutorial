@@ -13,7 +13,7 @@ With next-generation sequencing, the number of genes that can be profiled for ex
   - Secondary analysis
       * Alignment
       * Quantification of reads
-  - Tertiary analysis
+  - **Tertiary analysis**
       
       * Analysis of differential gene expression
         
