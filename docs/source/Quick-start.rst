@@ -8,7 +8,7 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
 
 1. Open Galaxy and sign in with your username and password 
 2. Create a new history for this analysis and rename this history with a name that is intuitive
-3. Upload your fastq files that you would like to run the RNA-seq analysis with. If you would like to use an example dataset, please use these detailed `instructions <https://artbio.github.io/springday/uploads/>`_. Further, upload your GTF/GFF3 annotation file for the organism of interest for which you are working. When you upload, these files will show up oin your history
+3. Upload your fastq files that you would like to run the RNA-seq analysis with. If you would like to use an example dataset, please use these detailed `instructions <https://artbio.github.io/springday/uploads/>`_. Further, upload your GTF/GFF3 annotation file for the organism of interest for which you are working. For detailed instructions, please go to the Note on `Primary analysis <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/>`_
 4. Navigate to the "Workflows" tab on the top of the Galaxy homepage
 5. Next to the workflow named "RNA-seq Primary analysis", click on the start button 
 6. This will navigate you to the page to enter all the values to run this workflow. Here, you can either send all the output to the current history or make a new history
