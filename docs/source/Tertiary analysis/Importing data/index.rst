@@ -25,8 +25,9 @@ Before carrying out the Tertiary analysis workflow, remember to make a new histo
   14. Under gtf file, select your gene annotation file from your history
   15. Under "KEGG pathways to plot", select the KEGG pathway file from your history
   16. Under "header", select the header file from your history
-  17. Scroll to the top and select "Yes" to send the results to a new history in order to send your workflow results to a new history and rename it so it's intuitive to you
-  18. Click on "Run Workflow"
+  17. Before you run the workflow, please review the changes you have to make to the DESeq2 tool `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Analysis%20of%20differential%20gene%20expression/Identification%20of%20differentially%20expressed%20genes/>`_ in order to run it with your dataset
+  18. Scroll to the top and select "Yes" to send the results to a new history in order to send your workflow results to a new history and rename it so it's intuitive to you
+  19. Click on "Run Workflow"
 
 
 **If you haven't run the Primary analysis and would rather download the example counts file to run the Tertiary analysis workflow**, please follow the steps below - 
@@ -53,14 +54,6 @@ Before carrying out the Tertiary analysis workflow, remember to make a new histo
   11. Under gtf file, select your gene annotation file from your history
   12. Under "KEGG pathways to plot", select the KEGG pathway file from your history
   13. Under "header", select the header file from your history
-  14. Scroll to the top and select "Yes" to send the results to a new history in order to send your workflow results to a new history and rename it so it's intuitive to you
-  15. Click on "Run Workflow"
-
-
-**If you haven't run the Primary analysis and would like to run the Tertiary analysis workflow on your own data**, please follow the steps below -
-
-.. note::
-
-  1. Upload the count files for each of your samples
-  2. Rename each item so that it has the sample name, and the treatment. It should have a unique sample name and the factor that you are interested in studying. So, for example, you can rename your sample like this GSM461177_untreat
-  3. For the rest of the steps, follow from step 3- step 11 of the above steps for those who haven't run the Primary analysis workflow and want to run the example dataset.
+  14. Before you run the workflow, please review the changes you have to make to the DESeq2 tool `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Analysis%20of%20differential%20gene%20expression/Identification%20of%20differentially%20expressed%20genes/>`_ in order to run it with your dataset
+  15. Scroll to the top and select "Yes" to send the results to a new history in order to send your workflow results to a new history and rename it so it's intuitive to you
+  16. Click on "Run Workflow"
