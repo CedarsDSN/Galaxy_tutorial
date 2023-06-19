@@ -34,7 +34,8 @@ If you haven't run the Primary analysis and would rather download the example co
   https://zenodo.org/record/6457007/files/GSM461180_treat_paired_featureCounts.counts
   https://zenodo.org/record/6457007/files/GSM461181_treat_paired_featureCounts.counts
 
-  2. Rename each item so that it has the sample name, and the treatment - so for example - GSM461177_untreat_paired_featureCounts.counts becomes GSM461177_untreat
+2. Rename each item so that it has the sample name, and the treatment - so for example - GSM461177_untreat_paired_featureCounts.counts becomes GSM461177_untreat
+
 
 If you haven't run the Primary analysis and would like to run the Tertiary analysis workflow on your own data, please follow the steps below -
 
