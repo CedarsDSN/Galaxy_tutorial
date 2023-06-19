@@ -27,7 +27,7 @@ For the first three tools, the user doesn't need to enter any values as everythi
 
 * This allows you to edit the "FactorName"
 
-* Enter the first factor name that you want to include (For example, Treatment)
+* Enter the factor name that you want to include (For example, Treatment)
 
 * Under the "factor level" of this "FactorName", click the edit button next to "Specify a factor level, typical values could be 'tumor', 'normal', 'treated' or 'control'"
 
@@ -35,13 +35,15 @@ For the first three tools, the user doesn't need to enter any values as everythi
 
 * Enter the first factor level that correspond to this "FactorName" (For example, treated)
 
-* In the textbox under "Select groups that correspond to this factor level", select the factor level tag that is attached to your samples (For example, since my samples are xxx_treat_(sequencing_type), I would enter treat here. Note: Here "sequencing type" is the other factor that I need to account for, and could be paired or single)
+* In the textbox under "Select groups that correspond to this factor level", select the factor level tag that is attached to your samples (For example, since my samples are xxx_treat, I would enter treat here. 
 
 * Under the second "factor level", click the edit button and enter the second factor level (For example, untreated)
 
-* In the textbox under "Select groups that correspond to this factor level", select the factor level tag that is attached to your samples (For example, since my samples are xxx_untreat_(sequencing_type), I would enter untreat here)
+* In the textbox under "Select groups that correspond to this factor level", select the factor level tag that is attached to your samples (For example, since my samples are xxx_untreat, I would enter untreat here)
 
-* Now, repeat the whole procedure for the next factor that needs to be accounted for (For example, sequencing type would be my Factor name and paired and single would be the factor levels)
+.. note::
+
+  Remember that the word that you enter into the factor levels should correspond to the word that you enter when you make your sample name (So, for example, if your samples are named as xxx_treat and xxx_untreat, then the two factor levels under Treatment factor in DESeq2, specifically under "Select groups that correspond to this factor level" should correspond to the words in the sample name after the underscore)
 
 * If you have batch factors that you know would affect your model, upload a tabular file with the factors that you would like to include (Note: This file is optional and could be produced by other tools like RUVseq or svaseq)
 
@@ -64,11 +66,11 @@ The second tool that is used is "Replace text in entire line"
 
 * Search for the tool under "Tools" and select the file to process (Your output from "Extract element identifiers")
 
-* Under "Find pattern", enter "(.*)_(.*)_(.*)" if you have two factors (Here, the sample name looks like xxx_treat_paired, xxx_untreat_paired, etc where my two factors are treatment and sequencing type) 
+* Under "Find pattern", enter "(.*)_(.*)" if you have one factor (Here, the sample name looks like xxx_treat, xxx_untreat, etc where factor is treatment) 
 
 * If you have three or more factors, modify the entry accordingly ((.*)_(.*)_(.*)_(.*) for three factors where the sample name would be xxx_treat_paired_time. Note: .* is a regular expression which searches for any character)
 
-* Under "Replace with", enter "\1_\2_\3\tgroup:\2\tgroup:\3" if you have two factors (Basically, the tool is creating two additional columns with the two factors that can be used with the next tool which can be then submitted to DESeq2)
+* Under "Replace with", enter "\1_\2\tgroup:\2" if you have two factors (Basically, the tool is creating two additional columns with the two factors that can be used with the next tool which can be then submitted to DESeq2)
 
 * Click "Execute"
 
