@@ -45,4 +45,4 @@ The output of MultiQC on RNA STAR results should contain a webpage which can be 
 
 * A plot gives the number of reads uniquely mapped, mapped to multiple loci, mapped to too many loci, unmapped because of being too short and unmapped generally
 
-* To interpret the results and understand the different outputs from STAR, `this <https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html>`_  is a good guide 
+* To interpret the results and understand the different outputs from STAR, `this <https://manual.omicsbox.biobam.com/user-manual/omicsbox-modules/module-transcriptomics/rna-seq-alignment/rna-seq-star/>`_  is a good guide 
