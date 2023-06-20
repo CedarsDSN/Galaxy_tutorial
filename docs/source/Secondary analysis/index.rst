@@ -10,5 +10,6 @@ If you would like to learn in-depth about RNA-seq, this `tutorial <https://artbi
 
    Alignment
    Quantification of reads
+   Accessing results
 
 
