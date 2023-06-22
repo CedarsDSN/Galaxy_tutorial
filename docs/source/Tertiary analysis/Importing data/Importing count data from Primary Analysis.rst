@@ -25,9 +25,18 @@
   18. Scroll to the top and select "Yes" to send the results to a new history in order to send your workflow results to a new history and rename it so it's intuitive to you
   19. Click on "Run Workflow"
 
+.. figure:: /images/copying_datasets_option.png
+   :width: 900
+   :height: 250
+   :alt: Copying datasets
+   
+   The screenshot shows where to find the "Copy Datasets" option in the history
+
 .. figure:: /images/copying_datasets.png
    :width: 900
    :height: 250
    :alt: Copying datasets
    
-   Figure showing how to copy datasets between two histories (copying featureCounts folder from previous history to new history)
+   The screenshot shows how to copy datasets between two histories (copying featureCounts folder from the previous history to the new history)
+
+
