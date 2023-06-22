@@ -27,7 +27,7 @@
 
 .. figure:: /images/copying_datasets.png
    :width: 800
-   :height: 500
+   :height: 300
    :alt: Copying datasets
    
    Figure showing how to copy datasets between two histories (copying featureCounts folder from previous history to new history)
