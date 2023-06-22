@@ -26,8 +26,6 @@
   19. Click on "Run Workflow"
 
 .. figure:: /images/copying_datasets_option.png
-   :width: 250
-   :height: 900
    :alt: Copying datasets option
    
    The screenshot shows where to find the "Copy Datasets" option in the history
