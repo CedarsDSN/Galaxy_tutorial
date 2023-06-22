@@ -26,15 +26,15 @@
   19. Click on "Run Workflow"
 
 .. figure:: /images/copying_datasets_option.png
-   :width: 900
-   :height: 250
-   :alt: Copying datasets
+   :width: 250
+   :height: 900
+   :alt: Copying datasets option
    
    The screenshot shows where to find the "Copy Datasets" option in the history
 
 .. figure:: /images/copying_datasets.png
-   :width: 250
-   :height: 900
+   :width: 900
+   :height: 250
    :alt: Copying datasets
    
    The screenshot shows how to copy datasets between two histories (copying featureCounts folder from the previous history to the new history)
