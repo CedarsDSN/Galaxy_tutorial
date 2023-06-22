@@ -7,6 +7,11 @@
   3. Scroll to the top of the history, and select the settings button
   4. Under Dataset options, Click on the option "Copy Datasets"
   5. This will open a new page where you can check the box next to the dataset you want to copy to a new history
+.. figure:: /images/copying_datasets.png
+   :width: 600
+   :alt: Copying datasets
+   
+   Figure showing how to copy datasets between two histories (copying featureCounts folder from previous history to new history)
   6. Select the "featureCounts on collection N: Counts" folder and select the "Destination history" as the history you created earlier - "RNA-seq tertiary analysis"
   7. You will need three more files - "KEGG pathways" to provide pathways to goseq, "header" file to create a header file to attach to DESeq2, and the Drosophila gene annotation file to run this workflow.
   8. For your organism, download the GTF file using the steps from "Primary Analysis" into this history. For the Drosophila gene annotation file, download the `file <https://zenodo.org/record/1185122>`_ "Drosophila_melanogaster.BDGP6.87.gtf" and upload it to the history
