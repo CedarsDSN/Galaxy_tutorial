@@ -37,4 +37,7 @@
    
    The screenshot shows how to copy datasets between two histories (copying featureCounts folder from the previous history to the new history)
 
-
+.. figure:: /images/tertiary_workflow_options.png
+   :alt: Tertiary workflow options
+   
+   The screenshot shows how your Tertiary workflow should look like
