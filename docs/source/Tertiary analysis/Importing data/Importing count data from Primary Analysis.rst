@@ -42,3 +42,7 @@
    
    The screenshot shows how to change the DESeq2 options
 
+.. figure:: /images/tertiary_workflow_options.png
+   :alt: Tertiary workflow options
+   
+   The screenshot shows how your Tertiary workflow should look with the files selected
