@@ -40,4 +40,4 @@
 .. figure:: /images/tertiary_workflow_options.png
    :alt: Tertiary workflow options
    
-   The screenshot shows how your Tertiary workflow should look like
+   The screenshot shows how your Tertiary workflow should look like with the files selected
