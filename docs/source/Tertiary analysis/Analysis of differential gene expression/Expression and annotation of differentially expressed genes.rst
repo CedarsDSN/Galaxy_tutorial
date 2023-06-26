@@ -15,7 +15,7 @@ For users that are running the workflow, these are the tools that would output a
 
 * Concatenate datasets
 
-At this stage, the user only has to enter a file for the fourth step - "Attaching a header to the DESeq2 output". After the DESeq2 annotated tables have been generated, they do not contain column names. The tables need to have column names in order to be used by the tools that use them next. The header file used here is in the  `Supplementary section <https://galaxy-tutorial.readthedocs.io/en/latest/Supplementary%20files/Creating%20a%20data%20file/>`
+At this stage, the user only has to enter a file for the fourth step - "Attaching a header to the DESeq2 output". After the DESeq2 annotated tables have been generated, they do not contain column names. The tables need to have column names in order to be used by the tools that use them next. The header file used here is in the  `Supplementary section <https://galaxy-tutorial.readthedocs.io/en/latest/Supplementary%20files/Creating%20a%20data%20file/>`_
 
 For users running the workflow, you can read further down this page if you would like to know how the other tools work and what they do (This will also show you the default parameters)
 
