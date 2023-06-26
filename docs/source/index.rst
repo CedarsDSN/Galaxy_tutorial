@@ -21,4 +21,5 @@ Contents
    Primary analysis/index.rst
    Secondary analysis/index.rst
    Tertiary analysis/index.rst
+   Supplementary files/index.rst
    Conclusion
