@@ -18,9 +18,18 @@ The initial step in every next-generation sequencing experiment should be to che
   
   5. If you're using a Windows device, use the putty terminal and type "gunzip name_of_the_gff3/gtf_file"
   
-  6. You can now use the upload button on the left hand corner of the page to upload this gff3/gtf file
+  6. You can now use the upload button on the left-hand corner of the page to upload this gff3/gtf file
 
 The Galaxy workflow uses FastQC for quality checks and assessments. For paired-end RNA samples in the Cedars Galaxy workflow, the read files are provided as a paired collection. Below are listed steps to convert fastq files to a format that can be provided to the workflow. Before you start, create a history for your work. The history is always on the right side and can be renamed by clicking on history and entering a custom name such as "RNA-Seq analysis"
+
+.. note::
+
+  Important note for renaming files if you want to use your samples for carrying out Tertiary analysis as well
+  1. Before you upload your files, remember to rename each of your samples
+  2. For each sample, rename each of your sample names such that it has a unique sample name followed by the treatment that you think is a factor in your RNA-seq differential analysis
+  3. For example, if my samples are treated and untreated, my samples would be named GSM11_untreat, GSM12_untreat, GSM13_treat and GSM14_treat
+  4. Make sure that you do this for every sample before you upload your samples
+
 
 .. note::
 
