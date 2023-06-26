@@ -22,7 +22,7 @@
   8. You can now ready to run the Tertiary analysis workflow and go through the next pages to improve your understanding of each step
   9. Go to workflows > "RNA-seq Tertiary Analysis single factor final version" and click on the run button
   10. Under "Input Dataset Collection", select your collection of counts files
-  11. Under gtf file, select your gene annotation file from your history
+  11. Under GTF file - gene annotation, select your gene annotation file from your history
   12. Under "KEGG pathways to plot", select the KEGG pathway file from your history
   13. Under "header", select the header file from your history
   14. Before you run the workflow, please review the changes you have to make to the DESeq2 tool `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Analysis%20of%20differential%20gene%20expression/Identification%20of%20differentially%20expressed%20genes/>`_ in order to run it with your dataset
