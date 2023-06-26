@@ -38,6 +38,6 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
   c. Hence, the default entries under "untreated" is "untreat" while under "treated" is "treat"
   d. Please change these entries according to what is in your count file names
 7. For more detailed steps, please refer to the `Importing data <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Importing%20data/>`_  page under Tertiary Analysis
-8. Under "Annotate DESeq2/DEXSeq output tables", select your GFF3 file from the dropdown menu
+8. Under GTF file - gene annotation, select your gene annotation file from your history
 9. Scroll to the top of the page and click on "Run workflow"
 10. You have run the tertiary workflow successfully on Galaxy
