@@ -13,12 +13,12 @@
   6. Select the "featureCounts on collection N: Counts" folder and select the "Destination history" as the history you created earlier - "RNA-seq tertiary analysis"
   7. You will need three more files - "KEGG pathways" to provide pathways to goseq, "header" file to create a header file to attach to DESeq2, and the Drosophila gene annotation file to run this workflow.
   8. For your organism, download the GTF file using the steps from "Primary Analysis" into this history. For the Drosophila gene annotation file, download the `file <https://zenodo.org/record/1185122>`_ "Drosophila_melanogaster.BDGP6.87.gtf" and upload it to the history
-  9. For the header file, follow the instructions in the note on `this page <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Analysis%20of%20differential%20gene%20expression/Expression%20and%20annotation%20of%20differentially%20expressed%20genes/>`_
-  10. For the KEGG pathway file, follow the instructions in the note on `this page <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Functional%20enrichment%20analysis%20of%20differentially%20expressed%20genes/KEGG%20pathway%20analysis/>`_
+  9. For the header file, follow the instructions on `this page <https://galaxy-tutorial.readthedocs.io/en/latest/Supplementary%20files/Creating%20a%20data%20file/>`_ and download the file from `here <https://galaxy-tutorial.readthedocs.io/en/latest/Supplementary%20files/Files%20for%20RNA-seq%20workflows/>`_
+  10. For the KEGG pathway file, follow the instructions on `this page <https://galaxy-tutorial.readthedocs.io/en/latest/Supplementary%20files/Creating%20a%20data%20file/>`_ and download the file from `here <https://galaxy-tutorial.readthedocs.io/en/latest/Supplementary%20files/Files%20for%20RNA-seq%20workflows/>`_
   11. You can now ready to run the Tertiary analysis workflow and go through the next pages to improve your understanding of each step
   12. Go to workflows > "RNA-seq Tertiary Analysis single factor final version" and click on the run button
   13. Under "Input Dataset Collection", select your collection of counts files
-  14. Under gtf file, select your gene annotation file from your history
+  14. Under GTF file - gene annotation, select your gene annotation file from your history
   15. Under "KEGG pathways to plot", select the KEGG pathway file from your history
   16. Under "header", select the header file from your history
   17. Before you run the workflow, please review the changes you have to make to the DESeq2 tool `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Analysis%20of%20differential%20gene%20expression/Identification%20of%20differentially%20expressed%20genes/>`_ in order to run it with your dataset. Refer to screenshot 3 below if you have treated vs untreated samples.
