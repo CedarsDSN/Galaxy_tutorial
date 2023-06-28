@@ -1,5 +1,5 @@
-Quantification of reads
-=======================
+**Quantification of reads**
+===========================
 
 Both STAR and FeatureCounts can be used to quantify and obtain gene level quantification of expression. We will use FeatureCounts here. Before carrying out quantification, it's important to determine the strandedness of your samples. Reach out to your sequencing facility to determine the strandedness of your samples.
 
