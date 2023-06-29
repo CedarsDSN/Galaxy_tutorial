@@ -1,4 +1,4 @@
-Identification of differentially expressed genes
+**Identification of differentially expressed genes**
 ====================================================
 
 If you want to learn more about the DESeq2 model and how it works, please refer to the `paper <https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0550-8>`_. The Galaxy DESeq2 tool is designed to accept as many factors as the user wants to add, along with levels for each factor. For example, a factor could be treatment and the factor levels could be treated and un-treated. Moving forward from the count table obtained from featureCounts, the table needs to be in a format that can be understood by DESeq2 in order to carry out normalization and differential gene expression. 
