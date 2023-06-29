@@ -55,8 +55,6 @@ We have KEGG analysis done and we have diffferentially expressed gene's informat
 
 For the next step, we need a file with KEGG pathways that we are interested in. You could have your own list of pathways. You could download this example file (Above “History”, click on the three dots and download the file) from `this page <https://github.com/CedarsDSN/Galaxy_tutorial/blob/main/docs/source/KEGG_pathways_to_plot.txt>`_ and upload the file to Galaxy using instructions from `here <https://galaxy-tutorial.readthedocs.io/en/latest/Supplementary%20files/Creating%20a%20data%20file/>`_
 
-For the KEGG pathway file, download the file from this page and upload the file to Galaxy using instructions from here
-
 The third tool that we will use is called "Pathview"
 
 * Search for the tool under "Tools"
