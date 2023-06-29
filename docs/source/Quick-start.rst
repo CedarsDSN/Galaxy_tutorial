@@ -20,7 +20,7 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
 10. Under "RNA STAR", select your genome of interest by clicking on the icon next to "Select reference genome", and select the genome of interest. If your genome isn't available, please contact the DSN team with your request. If using the example dataset, use "dm6 sequence index"
 11. Under "featureCounts", select your gene annotation GFF3 from the dropdown menu that appears (This would be the GTF/GFF3 file from your history)
 12. Scroll to the top of the page and click on "Run workflow"
-13. You have successfully conducted primary and secondary analysis using "Primary analysis" workflow in Galaxy
+13. You have successfully conducted primary and secondary analysis using the "Primary analysis" workflow in Galaxy
 
 **Tertiary analysis workflow (includes Tertiary analysis)**
 
@@ -39,5 +39,6 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
   d. Please change these entries according to what is in your count file names
 7. For more detailed steps, please refer to the `Importing data <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Importing%20data/>`_  page under Tertiary Analysis
 8. Under GTF file - gene annotation, select your gene annotation file from your history
+9. Another important note is for the "goseq" tool and "Pathview" tool. Depending on the gene ID format in your GTF file, scroll down to the two goseq tools in the workflow, expand each, and check the format under "Select Gene ID format". Use the button next to it to select your gene ID format from the dropdown list. Repeat this for the "Pathview" tool as well
 9. Scroll to the top of the page and click on "Run workflow"
 10. You have run the tertiary workflow successfully on Galaxy
