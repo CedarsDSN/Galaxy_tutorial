@@ -1,5 +1,5 @@
-Quality check and read processing
-=================================
+**Quality check and read processing**
+=====================================
   
 
 Let's start with the first step of Primary analysis which is conducting a Quality check and read processing. Through the steps, this tutorial will explain the meaning of each step, the inputs and outputs which will be useful if you are running each step seperately or running the workflow. 
