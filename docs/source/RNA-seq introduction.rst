@@ -1,5 +1,5 @@
 **RNA-seq introduction**
-========================
+=======================
 
 Gene expression is a process where genes are transcribed to an RNA molecule and then eventually translated to form a protein product. Quantifying the expression of genes under a certain condition can be carried out using RNA-Sequencing (RNA-Seq). When a gene is expressed, it produces RNA molecules and the number of RNA molecules helps quantify the amount to which it is expressed.  There are different classes of RNA molecules, one of which is messenger RNA (mRNA), which enters into the cytoplasm from the nucleus where it is translated to the final protein product. For comparing two conditions, quantifying the number of transcripts can be a good indicator of the expression repertoire and help understand what genes are turned on or off between two circumstances. In RNA-Seq, one of the most important downstream analyses is differential expression analysis and pathway analysis. We will be conducting Primary, secondary and tertiary analysis through this tutorial and you will also learn how to use the Galaxy platform. 
 
