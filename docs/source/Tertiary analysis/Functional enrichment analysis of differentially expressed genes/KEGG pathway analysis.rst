@@ -20,7 +20,7 @@ Under "Differentially expressed genes file", select "Gene IDs and differential e
 
 * Select "Get categories" under "Gene categories" and the genome that you would like to select under "Select a genome to use"
 
-* If your gene annotations contain Ensembl gene IDs, select "Ensembl Gene ID" under "Select Gene ID format"
+* If your gene annotations contain Ensembl gene IDs, select "Ensembl Gene ID" under "Select Gene ID format". Please note: if your GTF file has a different Gene ID format, be sure to select that from the dropdown menu
 
 * Under "Select one or more categories", pick "KEGG"
 
@@ -73,7 +73,7 @@ The third tool that we will use is called "Pathview"
 
 * "Does the file have header (a first line with column names)?", select "No" 
 
-* Under "Format for gene data", enter "Ensembl gene ID"
+* Under "Format for gene data", enter "Ensembl gene ID". Please note: if your GTF file has a different Gene ID format, be sure to select that from the dropdown menu
 
 * Set "No" to "Provide a compound data file?"
 
