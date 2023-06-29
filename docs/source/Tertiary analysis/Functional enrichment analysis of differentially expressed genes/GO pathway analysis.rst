@@ -97,7 +97,7 @@ The last step in GO analysis is using the tool "goseq" to perfrom GO analysis
 
 * In this category, select the genome to use under "Select a genome to use"
 
-* Since Ensembl gene IDs were used, select "Ensembl Gene ID" under "Select Gene ID format"
+* Since Ensembl gene IDs were used, select "Ensembl Gene ID" under "Select Gene ID format". Please note: if your GTF file has a different Gene ID format, be sure to select that from the dropdown menu
 
 * Select one or more categories - depending on which category you would want, select "GO: Cellular Component, GO: Biological Process, GO: Molecular Function"
 
