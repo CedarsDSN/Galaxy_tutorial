@@ -1,5 +1,5 @@
-GO pathway analysis
-===================
+**GO pathway analysis**
+=======================
 
 At this stage, we have extracted genes that are significantly differentially expressed and visualized them. We are now ready to carry out Gene Ontology (GO) analysis using goseq.
 
