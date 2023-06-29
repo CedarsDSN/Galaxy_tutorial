@@ -21,9 +21,10 @@
   14. Under GTF file - gene annotation, select your gene annotation file from your history
   15. Under "KEGG pathways to plot", select the KEGG pathway file from your history
   16. Under "header", select the header file from your history
-  17. Before you run the workflow, please review the changes you have to make to the DESeq2 tool `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Analysis%20of%20differential%20gene%20expression/Identification%20of%20differentially%20expressed%20genes/>`_ in order to run it with your dataset. Refer to screenshot 3 below if you have treated vs untreated samples.
-  18. Scroll to the top and select "Yes" to send the results to a new history in order to send your workflow results to a new history and rename it so it's intuitive to you. Screenshot 4 shows how your workflow should look like before you submit.
-  19. Click on "Run Workflow"
+  17. Another important note is for the "goseq" tool and "Pathview" tool. Depending on the gene ID format in your GTF file, scroll down to the two goseq tools in the workflow, expand each, and check the format under "Select Gene ID format". Use the button next to it to select your gene ID format from the dropdown list. Repeat this for the "Pathview" tool as well
+  18. Before you run the workflow, please review the changes you have to make to the DESeq2 tool `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Analysis%20of%20differential%20gene%20expression/Identification%20of%20differentially%20expressed%20genes/>`_ in order to run it with your dataset. Refer to screenshot 3 below if you have treated vs untreated samples.
+  19. Scroll to the top and select "Yes" to send the results to a new history in order to send your workflow results to a new history and rename it so it's intuitive to you. Screenshot 4 shows how your workflow should look like before you submit.
+  20. Click on "Run Workflow"
 
 .. figure:: /images/copying_datasets_option.png
    :alt: Copying datasets option
