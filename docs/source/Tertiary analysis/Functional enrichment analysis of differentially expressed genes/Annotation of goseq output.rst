@@ -1,5 +1,5 @@
-goseq output
-============
+**goseq output**
+================
 
 With these parameters, "goseq" generates three outputs -
 
