@@ -1,5 +1,5 @@
-Expression and annotation of differentially expressed genes
-===========================================================
+**Expression and annotation of differentially expressed genes**
+===============================================================
 
 
 You have now conducted differential expression analysis and can now explore your data further. In the summary table outputted by DESeq2, suppose you would like to extract the most differentially expressed genes with a fold change greater than a certain value and the adjusted p-value above a certain threshold. This would be able to extract the most significantly differentially expressed genes. On this page, we are basically creating a file that can be used downstream.
