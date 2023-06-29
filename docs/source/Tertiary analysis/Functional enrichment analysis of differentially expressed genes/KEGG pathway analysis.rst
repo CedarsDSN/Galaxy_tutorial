@@ -1,5 +1,5 @@
-KEGG pathway analysis
-=====================
+**KEGG pathway analysis**
+=========================
 
 For KEGG analysis, let's start with the users running the workflow. These are the tools that will be used -
 
