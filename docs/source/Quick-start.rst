@@ -11,7 +11,7 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
 3. Next, a very important step is deciding whether you want to run the Tertiary analysis workflow. If you do, renaming your files is very important. Rename each of your sample names such that it has a unique sample name followed by the treatment that you think is a factor in your RNA-seq differential analysis
   a. For example, if my samples are treated and untreated, my samples would be named GSM11_1_untreat, GSM11_2_untreat, GSM12_1_untreat, GSM12_2_untreat, GSM13_1_treat, GSM13_2_treat and so on
   b. Make sure that you do this for every sample before you upload your samples
-4. Upload your fastq files that you would like to run the RNA-seq analysis with. If you would like to use an example dataset, please use these detailed `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/#>`_. 
+4. Upload your fastq files that you would like to run the RNA-seq analysis with (Instructions are `here <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/Importing%20data/#>`_) If you would like to use an example dataset, please use these detailed `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/#>`_. 
 5. Further, upload your GTF/GFF3 annotation file for the organism of interest for which you are working. For detailed instructions, please go to the Note on `Primary analysis <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/>`_
 6. Navigate to the "Workflows" tab on the top of the Galaxy homepage
 7. Next to the workflow named "RNA-seq Primary analysis", click on the start button 
