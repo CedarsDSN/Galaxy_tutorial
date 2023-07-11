@@ -20,7 +20,7 @@ The initial step in every next-generation sequencing experiment should be to che
   
   6. You can now use the upload button on the left-hand corner of the page to upload this gff3/gtf file
 
-The Galaxy workflow uses FastQC for quality checks and assessments. For paired-end RNA samples in the Cedars Galaxy workflow, the read files are provided as a paired collection. Below are listed steps to convert fastq files to a format that can be provided to the workflow. Before you start, create a history for your work. The history is always on the right side and can be renamed by clicking on history and entering a custom name such as "RNA-Seq analysis"
+The Galaxy workflow uses FastQC for quality checks and assessments. Before you start, create a history for your work. The history is always on the right side and can be renamed by clicking on history and entering a custom name such as "RNA-Seq analysis"
 
 .. note::
 
