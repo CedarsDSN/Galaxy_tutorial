@@ -9,7 +9,7 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
 1. Open Galaxy and sign in with your username and password 
 2. Create a new history for this analysis and rename this history with a name that is intuitive to you
 3. Next, a very important step is deciding whether you want to run the Tertiary analysis workflow. If you do, renaming your files is very important. Rename each of your sample names such that it has a unique sample name followed by the treatment that you think is a factor in your RNA-seq differential analysis
-  a. For example, if my samples are treated and untreated, my samples would be named GSM11_untreat, GSM12_untreat, GSM13_treat and GSM14_treat
+  a. For example, if my samples are treated and untreated, my samples would be named GSM11_1_untreat, GSM11_2_untreat, GSM12_1_untreat, GSM12_2_untreat, GSM13_1_treat, GSM13_2_treat and so on
   b. Make sure that you do this for every sample before you upload your samples
 4. Upload your fastq files that you would like to run the RNA-seq analysis with. If you would like to use an example dataset, please use these detailed `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/#>`_. 
 5. Further, upload your GTF/GFF3 annotation file for the organism of interest for which you are working. For detailed instructions, please go to the Note on `Primary analysis <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/>`_
@@ -27,7 +27,7 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
 
 1. For the "RNA-seq Tertiary analysis" workflow, you would either run it after the Primary Analysis workflow (please refer to `this <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Importing%20data/Importing%20count%20data%20from%20Primary%20Analysis/>`_ page) or run it on your own dataset (please refer to `this <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Importing%20data/Importing%20example%20data%20for%20running%20Tertiary%20Analysis//>`_ page)
 2. Rename each of your count file names such that it has a unique sample name followed by the treatment that you think is a factor in your RNA-seq differential analysis
-  a. For example, if my count files are treated and untreated, my count files would be named GSM11_untreat, GSM12_untreat, GSM13_treat and GSM14_treat
+  a. For example, if my count files are treated and untreated, my count files would be named GSM11_untreat, GSM12_untreat, GSM13_treat, and GSM14_treat
   b. Make sure that you do this for every count file before you upload your samples
 3. Navigate to the workflows tab, and select the Run button for the “RNA-seq Tertiary Analysis single factor final version” workflow to open the workflow and select datasets
 4. For the header file, download the file from `this page <https://github.com/CedarsDSN/Galaxy_tutorial/blob/main/docs/source/header.txt>`_ (Above "History", click on the three dots and download the file) and upload the file to Galaxy using instructions from `here <https://galaxy-tutorial.readthedocs.io/en/latest/Supplementary%20files/Creating%20a%20data%20file/>`_ 
