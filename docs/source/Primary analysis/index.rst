@@ -40,6 +40,7 @@ Below are the links to perform quality checks, and process and trim raw reads -
 
 .. toctree::
 
+   Using example data
    Importing data
    Importing large data
    Quality check and read processing
