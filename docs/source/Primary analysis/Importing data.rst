@@ -5,7 +5,7 @@
 
   For users conducting the "Quick-start", please refer to the steps below to create a collection of your input FASTQ files
 
-* Upload all your fastq files using the "Upload data" on the left upper hand corner on the Galaxy homepage (If your file is above 10GB, scroll down to "Importing data through FTP for data above 10GB")
+* Upload all your fastq files using the "Upload data" on the left upper hand corner on the Galaxy homepage (If your file is above 10GB, please use these `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/Importing%20large%20data/>`_)
 
 * Click on "Operations on multiple datasets" at the top of the history panel which is on the right-hand side
 
