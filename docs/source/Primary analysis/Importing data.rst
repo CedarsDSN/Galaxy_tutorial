@@ -18,10 +18,12 @@
 
 * Click "For all selected" and choose "Build List of Dataset Pairs"
 
-* In the new panel that appears, rename the text of unpaired forward to a common selector for forward reads and do the same for reverse reads
+* In the new panel that appears, rename the text of unpaired forward to a common selector for forward reads and do the same for reverse reads (For example, if your forward reads have _R1 and reverse reads have _R2, use _R1 for selecting forward reads and _R2 for reverse reads)
 
-* Click "Pair" these datasets for each valid forward and reverse pair
+* Click "Pair these datasets" for each valid forward and reverse pair
 
 * Enter a name for the collection and click "Create List" to build the collection
 
 * To lock the changes, click on the checkmark icon at the top of the history
+
+* Your collection of fastq files is ready to be used in the workflow
