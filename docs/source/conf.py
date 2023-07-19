@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'Galaxy-tutorial'
-copyright = '2021, Graziella'
-author = 'Graziella'
+copyright = '2023, Cedars-DSN'
+author = 'Cedars-DSN'
 
 release = '0.1'
 version = '0.1.0'
