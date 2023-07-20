@@ -5,11 +5,11 @@
 
   For users conducting the "Quick-start", please refer to the steps below to create a collection of your input FASTQ files
 
-* Upload all your fastq files using the "Upload data" on the left upper hand corner on the Galaxy homepage (If your file is above 10GB, please use these `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/Importing%20large%20data/>`_)
+* Upload all your fastq files using the "Upload data" on the left upper-hand corner on the Galaxy homepage (If your file is above 10GB, please use these `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/Importing%20large%20data/>`_)
 
-* Click on "Operations on multiple datasets" at the top of the history panel which is on the right-hand side
+* These files should appear in your history on the right-hand side. Click on the checkbox and a checkbox will appear in front of every file
 
-* These files should appear in your history on the right-hand side. Check all those that you would like to include in your analysis like below
+* Check all those that you would like to include in your analysis like below
 
 .. image:: /images/Naming_datasets.png
    :width: 200
