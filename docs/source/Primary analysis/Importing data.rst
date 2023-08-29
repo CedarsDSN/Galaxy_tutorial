@@ -11,16 +11,18 @@
 
 * Check all those that you would like to include in your analysis like below
 
-.. image:: /images/Naming_datasets_single.png
+.. image:: /images/Naming_datasets.png
    :width: 200
    :height: 275
    :alt: Choosing datasets
 
-* Click "For all selected" and choose "Build Dataset List" from the dropdown menu
+* Click “For all selected” and choose “Build List of Dataset Pairs”
 
-* In the new panel that appears, name your collection of files
+* In the new panel that appears, rename the text of unpaired forward to a common selector for forward reads and do the same for reverse reads (For example, if your forward reads have _R1 and reverse reads have _R2, use _R1 for selecting forward reads and _R2 for reverse reads)
 
-* Enter a name for the collection and click "Create Collection" to build the collection
+* Click “Pair these datasets” for each valid forward and reverse pair
+
+* Enter a name for the collection and click “Create List” to build the collection
 
 * To lock the changes, click on the checkmark icon at the top of the history
 
