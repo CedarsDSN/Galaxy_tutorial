@@ -37,7 +37,7 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
   b. Here, the words used in the count file names are "treat" and "untreat"
   c. Hence, the default entries under "untreated" is "untreat" while under "treated" is "treat"
   d. Please change these entries according to what is in your count file names
-7. For more detailed steps, please refer to the `Importing data <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Importing%20data/>`_  page under Tertiary Analysis
+7. For more detailed steps, please refer to the Screenshot 3 on `this page <https://galaxy-tutorial.readthedocs.io/en/latest/Tertiary%20analysis/Importing%20data/Importing%20count%20data%20from%20Primary%20Analysis/>`_  page under Tertiary Analysis
 8. Under GTF file - gene annotation, select your gene annotation file from your history
 9. An important note is for the "18: goseq", "19: goseq" tool and "26: Pathview" tools. For all three, depending on the gene ID format in your GTF file, scroll down to the two goseq tools and the Pathview tool in the workflow, expand each, and check the format under "Select Gene ID format". Use the button next to it to select your gene ID format from the dropdown list. Repeat this for the "Pathview" tool as well
 10. Another important note is for the "30: Cut" tool. The current setting in this tool assumes that you have four paired-end samples (therefore, "Cut columns" is set to c1-c5). c1 is the name of the gene and the c2-c5 are the expression columns for the samples. Please use the edit button next to "Cut columns" to change this accordingly. If you have five paired-end samples, you should change this parameter to c1-c6.
