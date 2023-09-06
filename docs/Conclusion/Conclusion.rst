@@ -1,0 +1,5 @@
+**Conclusion**
+==============
+
+In this tutorial, we have conducted RNA-seq analysis using a reference genome. This is specific to the RNA-seq workflow created in the Galaxy instance created for Cedars-Sinai Medical center by the Data Science Navigation (DSN) team. The most common pipeline that is used for RNA-Seq involves using a reference genome. The tutorial also provides RNA-Seq reads to be able to perform this with data if you don't have data of your own. 
+In this tutorial, we first carried quality control with FastQC, and trimmed the reads of adapters and low quality bases using CutAdapt. These reads were then aligned to a reference genome and quantified using RNA STAR and featureCounts, respectively. With the expression matrix, we used DESeq2 to carryout differential gene expression. With the differentially expressed genes, we then performed Gene enrichment analysis using Gene Ontology analysis and pathway analysis using goseq. We have thus started with raw reads and gained some insight into which genes could be differentially expressed or specifically enriched in some pathway/process.
