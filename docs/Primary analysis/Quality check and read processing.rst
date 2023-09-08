@@ -2,9 +2,9 @@
 =====================================
   
 
-Let's start with the first step of Primary analysis which is conducting a Quality check and read processing. Through the steps, this tutorial will explain the meaning of each step, the inputs and outputs which will be useful if you are running each step seperately or running the workflow. 
+Let's start with the first step of Primary analysis which is conducting a Quality check and read processing. Through the steps, this tutorial will explain the meaning of each step, the inputs and outputs which will be useful if you are running each step separately or running the workflow. 
 
-For users of the workflow, let's start with the "RNA-seq Primary analysis" workflow. 
+**For users of the workflow** - let's start with the "RNA-seq Primary analysis paired-end" workflow. 
 
 * From the homepage, navigate to "Workflow" and scroll down to "RNA-seq Primary analysis"
 
@@ -12,19 +12,19 @@ For users of the workflow, let's start with the "RNA-seq Primary analysis" workf
 
 * The tool that will run the first step i.e. Quality check is FastQC and you don't have to provide any values under FastQC. We will be using the default values
 
-For users running each step - 
+**For users running each step** - 
 
 * The paired dataset collection created in the previous step can be provided to the tool - FastQC, but only after converting the list of pairs into a simple list
 
 * The flatten collection tool is pre-installed in Galaxy and can be used to convert the output for FastQC
 
-* In the drop-down menu for "Flatten collection" tool, provide the paired dataset collection
+* In the drop-down menu for the "Flatten collection" tool, provide the paired dataset collection
 
 * Run the tool and the output automatically saves to the history and can be easily provided to the FastQC tool
 
-* Find FastQC in the toolshed on the left handside and launch the tool
+* Find FastQC in the toolshed on the left side and launch the tool
 
-* Provide the output of "Flatten collection" tool to the FastQC tool and run
+* Provide the output of the "Flatten collection" tool to the FastQC tool and run
 
 
 Output of FastQC -
@@ -32,9 +32,9 @@ Output of FastQC -
 
 HTML file can be viewed after downloading it from the history. Below are all the information and plots that one can expect from the FastQ HTML report -
 
-* Basic statistics - This is exactly what it says, all basic statistics about your fastq samples which includes but not limited to total number of sequences, sequence length and GC%
+* Basic statistics - This is exactly what it says, all basic statistics about your fastq samples which include but not limited to the total number of sequences, sequence length, and GC%
 
-* Various plots showing per sequence quality scores, per base sequence content, per sequence GC content, per base N content, sequence duplication levels and adapter content. One of the plot below shows the per base sequence quality
+* Various plots showing per sequence quality scores, per base sequence content, per sequence GC content, per base N content, sequence duplication levels, and adapter content. One of the plots below shows the per-base sequence quality
 
 * If you would more information on interpreting each of the plots and statistics in the FastQC output, `this <https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon/lessons/qc_fastqc_assessment.html>`_ is a good place to start. Scroll down to the "Analysis quality metrics" to look at the interpretation of each plot.
 
