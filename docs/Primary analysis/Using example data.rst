@@ -20,7 +20,7 @@ Example data can be used to run this workflow. The original tutorial has provide
   https://zenodo.org/record/4541751/files/GSM461181_1.fastqsanger
   https://zenodo.org/record/4541751/files/GSM461181_2.fastqsanger
 
-* The files should start uploading. One more way is to download the files to your computer from the site and upload them to Filezilla and use FTP to transfer these files (Please use these `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/Importing%20large%20data/>`_)
+* The files should start uploading. One more way is to download the files to your computer from the site and upload them to Filezilla and use FTP to transfer these files (Please use these `instructions <https://galaxy-tutorial.readthedocs.io/en/latest/Primary%20analysis/Importing%20large%20data.html>`_)
                                                                                                                                                                           
 * Once these files have been uploaded, they have to be renamed appropriately to be used in the workflow. When successfully uploaded, the files should appear in a green background in the current history
                                                                                                                                                                            
