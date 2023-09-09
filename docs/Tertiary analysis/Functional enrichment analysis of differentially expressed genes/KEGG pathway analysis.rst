@@ -9,9 +9,11 @@ For KEGG analysis, let's start with the users running the workflow. These are th
 
 * Pathview
 
-For users using the workflow, you don't have to enter any parameters or values at this point. You can read further down this page if you would like to know how the other tools work and what they do (This will also show you the default parameters).
+**For users using the workflow**
 
-For users running each step seperately and for users running the secondary analysis seperately, let's start breaking down the steps to run a KEGG pathway analysis -
+You don't have to enter any parameters or values at this point. You can read further down this page if you would like to know how the other tools work and what they do (This will also show you the default parameters).
+
+**For users running each step separately**, let's start breaking down the steps to run a KEGG pathway analysis -
 
 The first tool that we use is "goseq" which we used earlier -
 
