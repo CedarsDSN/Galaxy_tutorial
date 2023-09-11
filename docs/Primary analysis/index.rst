@@ -30,7 +30,7 @@ The Galaxy workflow uses FastQC for quality checks and assessments. Before you s
   
   2. For each sample, rename each of your sample names such that it has a unique sample name followed by the treatment that you think is a factor in your RNA-seq differential analysis
   
-  3. For example, if my samples are treated and untreated, my samples would be named GSM11_untreat, GSM12_untreat, GSM13_treat and GSM14_treat
+  3. For example, if my samples are treated and untreated, my samples would be named GSM11_1_untreat, GSM11_2_untreat, GSM12_1_untreat, GSM12_2_untreat, GSM13_1_treat, GSM13_2_treat and so on
   
   4. Make sure that you do this for every sample before you upload your samples
 
