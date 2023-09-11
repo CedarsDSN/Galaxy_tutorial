@@ -7,7 +7,7 @@ If you used the "RNA-seq Primary analysis" workflow, you should have the output 
 
 .. note::
 
-  1. The "RNA-seq Tertiary analysis" workflow has DESeq2 tool setup so that it can take in two factors, each with two factor levels. If you have less or more factors, consider running each step of the pipeline rather than the workflow.
+  1. The "RNA-seq Tertiary analysis" workflow has DESeq2 tool setup so that it can take in one factor, with two factor levels. If you have two or more factors, consider running each step of the pipeline rather than the workflow.
 
 
 **For users running the workflow**
