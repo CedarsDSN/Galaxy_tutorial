@@ -53,7 +53,7 @@ For the first three tools, the user doesn't need to enter any values as everythi
 The output of this step will be explained in the next page. For users running the workflow, you can read further down this page if you would like to know how the other three tools work and what they do.
 
 
-**For users running each step separately** let's get into the nitty-gritty of identifying differentially expressed features (genes in our case) -
+**For users running each step** let's get into the nitty-gritty of identifying differentially expressed features (genes in our case) -
 
 The first tool that is used is "Extract element identifers"
 
