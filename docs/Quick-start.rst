@@ -20,10 +20,10 @@ This is the list of steps that one would require to run the RNA-seq "Primary ana
 10. Another file that you will need is the fasta file of your adapter sequences. If you have your own set of adapter sequences, create a file and upload it using the "Upload data" button. If you don't have a file with your adapter sequences, you can use the file uploaded to the "Data Libraries" under "Shared data". The instructions for accessing a file in the "Data Libraries" is here. These instructions will help you obtain the said file into your current history
 11. Under "Cutadapt", under "Read 1 options", select your adapter file or the "adapters.fa" file under "5' or 3' (Anywhere) Adapters", Select the same file for "Read 2 options".
 12. Under "FastQC", select your adapter file or the "adapters.fa" file under "Adapter list"
-10. Under "RNA STAR", select your genome of interest by clicking on the icon next to "Select reference genome", and select the genome of interest. If your genome isn't available, please contact the DSN team with your request. If using the example dataset, use "dm6 sequence index"
-11. Under "featureCounts", select your gene annotation GFF3 from the dropdown menu that appears (This would be the GTF/GFF3 file from your history)
-12. Scroll to the top of the page and click on "Run workflow"
-13. You have successfully conducted primary and secondary analysis using the "Primary analysis" workflow in Galaxy
+13. Under "RNA STAR", select your genome of interest by clicking on the icon next to "Select reference genome", and select the genome of interest. If your genome isn't available, please contact the DSN team with your request. If using the example dataset, use "dm6 sequence index"
+14. Under "featureCounts", select your gene annotation GFF3 from the dropdown menu that appears (This would be the GTF/GFF3 file from your history)
+15. Scroll to the top of the page and click on "Run workflow"
+16. You have successfully conducted primary and secondary analysis using the "Primary analysis" workflow in Galaxy
 
 **Tertiary analysis workflow (includes Tertiary analysis)**
 
